@@ -2,7 +2,7 @@ google.load("feeds", "1");
 
 function initialize() {
 	var feed = new google.feeds.Feed("http://grrowing.org/events/RSS");
-	feed.setNumEntries(10);
+	feed.setNumEntries(12);
 	feed.setResultFormat(google.feeds.Feed.JSON_FORMAT);
 
 	feed.load(function(result) {
